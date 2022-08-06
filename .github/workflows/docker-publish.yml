@@ -12,7 +12,7 @@ jobs:
     env:
       TZ: Asia/Shanghai
     outputs:
-      tags: ${{ steps.set-output-id.outputs.tags }}
+      tags: "v1.0.1"
     steps:
       - uses: actions/checkout@v2
       - name: set-output
