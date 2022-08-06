@@ -3,7 +3,7 @@ on:
   workflow_dispatch: #github页面手动触发
   push:
     tags:
-      - "test"
+      - "V1.0.1"
 env:
   IMAGE_NAME: ubuntu #这是您的镜像名
 jobs:
